@@ -1,0 +1,228 @@
+html {
+  background-color: bisque;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: burlywood;
+}
+
+
+header img {
+  width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: gold;
+}
+
+#banner {
+  background-image: url("./images/hand-paw.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: crimson;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#banner h1 {
+  font-size: 2.5em;
+}
+
+#banner button {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: yellowgreen;
+  cursor: grab;
+  transition: background-color 0.3s;
+}
+
+#banner button:hover {
+  background-color: #ddd;
+}
+
+#perros_img {
+  height: 200px;
+  width: 200px;
+}
+
+#perros {
+  flex-direction: column;
+  display: flex;
+}
+
+#perro1_border {
+  width: 210px; 
+  border: 15px ridge goldenrod; 
+  padding: 10px; 
+  margin: auto; 
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+}
+
+#perro2_border {
+  width: 210px; 
+  border: 15px ridge cornsilk; 
+  padding: 10px; 
+  margin: auto; 
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+}
+
+#perro3_border {
+  width: 210px; 
+  border: 15px ridge whitesmoke; 
+  padding: 10px; 
+  margin: auto; 
+  background-color: burlywood; 
+  display: block; 
+  text-align: center;
+}
+
+#perro4_border {
+  width: 210px; 
+  border: 15px ridge black; 
+  padding: 10px; 
+  margin: auto; 
+  background-color: burlywood; 
+  display: block; 
+  text-align: center;
+}
+
+#perro5_border {
+  width: 210px; 
+  border: 15px ridge lightsalmon; 
+  padding: 10px; 
+  margin: auto; 
+  background-color: burlywood; 
+  display: block; 
+  text-align: center;
+}
+
+#perro6_border {
+  width: 210px; 
+  border: 15px ridge lightyellow; 
+  padding: 10px; 
+  margin: auto; 
+  background-color: burlywood; 
+  display: block; 
+  text-align: center;
+}
+
+#perro7_border {
+  width: 210px; 
+  border: 15px ridge brown; 
+  padding: 10px; 
+  margin: auto; 
+  background-color: burlywood; 
+  display: block; 
+  text-align: center;
+}
+
+#perro8_border {
+  width: 210px; 
+  border: 15px ridge silver; 
+  padding: 10px; 
+  margin: auto; 
+  background-color: burlywood; 
+  display: block; 
+  text-align: center;
+}
+
+#perro9_border {
+  width: 210px; 
+  border: 15px ridge lightcyan; 
+  padding: 10px; 
+  margin: auto; 
+  background-color: burlywood; 
+  display: block; 
+  text-align: center;
+}
+
+#perro10_border {
+  width: 210px; 
+  border: 15px ridge khaki; 
+  padding: 10px; 
+  margin: auto; 
+  background-color: burlywood; 
+  display: block; 
+  text-align: center;
+}
+
+#historias {
+  border: 5px;
+  border-style: dotted;
+  border-color: cadetblue;
+  background-color: khaki;
+  text-align: center;
+  margin: auto;
+}
+
+#ayudar {
+  border: 5px;
+  border-style: dotted;
+  border-color:  lightcoral;
+  background-color:  palegoldenrod;
+  text-align: center;
+  margin: auto;
+}
+
+#acerca {
+  border: 5px;
+  border-style: dotted;
+  border-color:  aquamarine;
+  background-color:  navajowhite;
+  text-align: center;
+  margin: auto;
+}
+
+footer{
+  border: 5px;
+  border-style: dotted;
+  border-color:  orangered;
+  background-color:  peachpuff;
+  text-align: center;
+  margin: auto;
+}
+
+#perros {
+  text-align: center;
+  color: green;
+}
+
+ul{
+  list-style-type: square;
+}
